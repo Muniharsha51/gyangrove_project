@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.3",
+    "nodemon": "^3.1.0"
+  },
+  "name": "gyangrove",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muniharsha51/gyangrove_project.git"
+  },
+  "author": "Muniharsha51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muniharsha51/gyangrove_project/issues"
+  },
+  "homepage": "https://github.com/Muniharsha51/gyangrove_project#readme"
+}
