@@ -2,7 +2,8 @@
 
 let express=require('express')
 const cors = require('cors');
-
+// let dotenv = require('dotenv')
+require('dotenv').config()
 
 let app=express()
 app.use(express.json())
@@ -17,3 +18,4 @@ app.listen(3001,()=>{
 
     console.log("Server is Connected and running sucessfully")
 })
+
