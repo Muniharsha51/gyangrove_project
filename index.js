@@ -2,7 +2,6 @@
 
 let express=require('express')
 const cors = require('cors');
-// let dotenv = require('dotenv')
 require('dotenv').config()
 
 let app=express()
@@ -12,7 +11,6 @@ app.use(cors());
 const router=require('./routes/route');
 
 app.use(router)
-
 
 app.listen(3001,()=>{
 
